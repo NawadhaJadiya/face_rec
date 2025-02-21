@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.camera-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.webcam {
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+}
+
+.captured-image {
+  max-width: 320px;
+  height: auto;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.btn-link {
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
