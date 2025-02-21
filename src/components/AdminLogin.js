@@ -8,7 +8,7 @@ const AdminLogin = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     if (credentials.username === 'admin' && credentials.password === 'password') {
-      navigate('/register');
+      navigate('/logs');
     } else {
       alert('Invalid credentials');
     }
